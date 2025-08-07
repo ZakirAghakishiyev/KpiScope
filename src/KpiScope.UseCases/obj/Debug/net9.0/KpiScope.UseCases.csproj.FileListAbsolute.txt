@@ -1,0 +1,15 @@
+E:\Work\KPI\KpiScope\src\KpiScope.UseCases\bin\Debug\net9.0\KpiScope.UseCases.deps.json
+E:\Work\KPI\KpiScope\src\KpiScope.UseCases\bin\Debug\net9.0\KpiScope.UseCases.dll
+E:\Work\KPI\KpiScope\src\KpiScope.UseCases\bin\Debug\net9.0\KpiScope.UseCases.pdb
+E:\Work\KPI\KpiScope\src\KpiScope.UseCases\bin\Debug\net9.0\KpiScope.Core.dll
+E:\Work\KPI\KpiScope\src\KpiScope.UseCases\bin\Debug\net9.0\KpiScope.Core.pdb
+E:\Work\KPI\KpiScope\src\KpiScope.UseCases\obj\Debug\net9.0\KpiScope.UseCases.csproj.AssemblyReference.cache
+E:\Work\KPI\KpiScope\src\KpiScope.UseCases\obj\Debug\net9.0\KpiScope.UseCases.GeneratedMSBuildEditorConfig.editorconfig
+E:\Work\KPI\KpiScope\src\KpiScope.UseCases\obj\Debug\net9.0\KpiScope.UseCases.AssemblyInfoInputs.cache
+E:\Work\KPI\KpiScope\src\KpiScope.UseCases\obj\Debug\net9.0\KpiScope.UseCases.AssemblyInfo.cs
+E:\Work\KPI\KpiScope\src\KpiScope.UseCases\obj\Debug\net9.0\KpiScope.UseCases.csproj.CoreCompileInputs.cache
+E:\Work\KPI\KpiScope\src\KpiScope.UseCases\obj\Debug\net9.0\KpiScope.69D1E41A.Up2Date
+E:\Work\KPI\KpiScope\src\KpiScope.UseCases\obj\Debug\net9.0\KpiScope.UseCases.dll
+E:\Work\KPI\KpiScope\src\KpiScope.UseCases\obj\Debug\net9.0\refint\KpiScope.UseCases.dll
+E:\Work\KPI\KpiScope\src\KpiScope.UseCases\obj\Debug\net9.0\KpiScope.UseCases.pdb
+E:\Work\KPI\KpiScope\src\KpiScope.UseCases\obj\Debug\net9.0\ref\KpiScope.UseCases.dll

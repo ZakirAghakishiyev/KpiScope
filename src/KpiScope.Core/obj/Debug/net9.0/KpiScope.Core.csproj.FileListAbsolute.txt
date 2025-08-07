@@ -1,0 +1,12 @@
+E:\Work\KPI\KpiScope\src\KpiScope.Core\bin\Debug\net9.0\KpiScope.Core.deps.json
+E:\Work\KPI\KpiScope\src\KpiScope.Core\bin\Debug\net9.0\KpiScope.Core.dll
+E:\Work\KPI\KpiScope\src\KpiScope.Core\bin\Debug\net9.0\KpiScope.Core.pdb
+E:\Work\KPI\KpiScope\src\KpiScope.Core\obj\Debug\net9.0\KpiScope.Core.csproj.AssemblyReference.cache
+E:\Work\KPI\KpiScope\src\KpiScope.Core\obj\Debug\net9.0\KpiScope.Core.GeneratedMSBuildEditorConfig.editorconfig
+E:\Work\KPI\KpiScope\src\KpiScope.Core\obj\Debug\net9.0\KpiScope.Core.AssemblyInfoInputs.cache
+E:\Work\KPI\KpiScope\src\KpiScope.Core\obj\Debug\net9.0\KpiScope.Core.AssemblyInfo.cs
+E:\Work\KPI\KpiScope\src\KpiScope.Core\obj\Debug\net9.0\KpiScope.Core.csproj.CoreCompileInputs.cache
+E:\Work\KPI\KpiScope\src\KpiScope.Core\obj\Debug\net9.0\KpiScope.Core.dll
+E:\Work\KPI\KpiScope\src\KpiScope.Core\obj\Debug\net9.0\refint\KpiScope.Core.dll
+E:\Work\KPI\KpiScope\src\KpiScope.Core\obj\Debug\net9.0\KpiScope.Core.pdb
+E:\Work\KPI\KpiScope\src\KpiScope.Core\obj\Debug\net9.0\ref\KpiScope.Core.dll

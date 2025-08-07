@@ -1,0 +1,30 @@
+<Solution>
+  <Configurations>
+    <Platform Name="Any CPU" />
+    <Platform Name="x64" />
+    <Platform Name="x86" />
+  </Configurations>
+  <Folder Name="/Solution Items/">
+    <File Path=".editorconfig" />
+    <File Path="CleanArchitecture.nuspec" />
+    <File Path="Directory.Build.props" />
+    <File Path="Directory.Packages.props" />
+  </Folder>
+  <Folder Name="/src/">
+    <Project Path="src/KpiScope.AspireHost/KpiScope.AspireHost.csproj" />
+    <Project Path="src/KpiScope.ServiceDefaults/KpiScope.ServiceDefaults.csproj" />
+    <Project Path="src/KpiScope.Core/KpiScope.Core.csproj" />
+    <Project Path="src/KpiScope.Infrastructure/KpiScope.Infrastructure.csproj" />
+    <Project Path="src/KpiScope.UseCases/KpiScope.UseCases.csproj" />
+    <Project Path="src/KpiScope.Web/KpiScope.Web.csproj" />
+  </Folder>
+  <Folder Name="/tests/">
+    <Project Path="tests/KpiScope.FunctionalTests/KpiScope.FunctionalTests.csproj">
+      <BuildDependency Project="src/KpiScope.Web/KpiScope.Web.csproj" />
+    </Project>
+    <Project Path="tests/KpiScope.IntegrationTests/KpiScope.IntegrationTests.csproj">
+      <BuildDependency Project="src/KpiScope.Infrastructure/KpiScope.Infrastructure.csproj" />
+    </Project>
+    <Project Path="tests/KpiScope.UnitTests/KpiScope.UnitTests.csproj" />
+  </Folder>
+</Solution>

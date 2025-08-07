@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\KpiScope.Web.props" />
+</Project>
