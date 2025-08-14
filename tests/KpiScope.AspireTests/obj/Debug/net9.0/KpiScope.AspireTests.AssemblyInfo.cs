@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("KpiScope.AspireTests")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+1c2dee41e5c190f78b23a46e1e51c02aba2d85cc")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+995e72d998b7c9c8247f0bb883512d3cbc4f9cf4")]
 [assembly: System.Reflection.AssemblyProductAttribute("KpiScope.AspireTests")]
 [assembly: System.Reflection.AssemblyTitleAttribute("KpiScope.AspireTests")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

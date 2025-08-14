@@ -22,6 +22,7 @@ using KpiScope.Web.Company;
 using UserAgg=KpiScope.Core.UserAggregate;
 using KpiScope.Web.Value.KpiValue.Update;
 using KpiScope.Core.KpiAggregate;
+using ConfAgg=KpiScope.Core.KpiGroupAggregate;
 using KpiScope.Web.Value.DynamicValue.Create;
 using KpiScope.Web.Value.KpiValue.Create;
 using KpiScope.Web.KPI.Create;
@@ -30,6 +31,12 @@ using KpiScope.Web.KPI.GetById;
 using KpiScope.Web.KPI.Delete;
 using KpiScope.Web.KPI.List;
 using KpiScope.Web.KPI.AddValue;
+using KpiScope.Web.KpiConfirmation.StartConfirmation;
+using KpiScope.Web.KpiConfirmation.GetConfirmationById;
+using KpiScope.Web.KpiConfirmation.GetConfirmationStepsById;
+using KpiScope.Web.KpiConfirmation.ConfirmKpi;
+using KpiScope.Web.KpiConfirmation.RejectKpi;
+using KpiScope.Core.KpiGroupAggregate;
 
 namespace KpiScope.Web;
 
@@ -93,8 +100,27 @@ public class Automapper : Profile
         CreateMap<ListKpiResponse, CreateKpiValueResponse>().ReverseMap();
         CreateMap<KpiValue, CreateKpiValueRequest>().ReverseMap();
         CreateMap<KpiValue, KpiValueDto>().ReverseMap();
-        
+
         CreateMap<CreateDynamicValueResponse, DynamicValue>().ReverseMap();
         CreateMap<CreateDynamicValueRequest, DynamicValue>().ReverseMap();
+
+        // CreateMap<StartKpiConfirmationRequest, ConfAgg.KpiConfirmation>().ReverseMap();
+        CreateMap<ConfAgg.KpiConfirmation, StartKpiConfirmationResponse>()
+            .ForMember(dest => dest.Id, opt => opt.MapFrom(src => src.Id))
+            .ForMember(dest => dest.Status, opt => opt.MapFrom(src => src.Status))
+            .ForMember(dest => dest.CreatedAt, opt => opt.MapFrom(src => src.CreatedAt));
+        CreateMap<GetKpiConfirmationResponse, ConfAgg.KpiConfirmation>().ReverseMap();
+        CreateMap<KpiConfirmationStep, KpiConfirmationStepDto>()
+            .ForMember(
+                dest => dest.ApproverName,
+                opt => opt.MapFrom(src => src.Approvers.FirstOrDefault() != null 
+                    ? src.Approvers.First().User!.Username 
+                    : string.Empty)
+            )
+            .ForMember(dest => dest.Status, opt => opt.MapFrom(src => src.Status))
+            .ForMember(dest => dest.CompletedAt, opt => opt.MapFrom(src => src.CompletedAt))
+            .ForMember(dest => dest.Comment,
+                opt => opt.MapFrom(src => src.Approvers.FirstOrDefault()!.Comment ?? string.Empty))
+            .ForMember(dest => dest.StepNumber, opt => opt.MapFrom(src => src.StepNumber));
     }
 }

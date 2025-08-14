@@ -1,0 +1,48 @@
+2025-08-14 10:39:15.755 +04:00 [INF] Starting web host
+2025-08-14 10:39:17.554 +04:00 [INF] Options were configured
+2025-08-14 10:39:17.871 +04:00 [INF] Infrastructure services registered
+2025-08-14 10:39:18.930 +04:00 [INF] Mediatr and Email Sender services registered
+2025-08-14 10:40:23.511 +04:00 [INF] Starting web host
+2025-08-14 10:40:23.624 +04:00 [INF] Options were configured
+2025-08-14 10:40:23.633 +04:00 [INF] Infrastructure services registered
+2025-08-14 10:40:23.652 +04:00 [INF] Mediatr and Email Sender services registered
+2025-08-14 10:44:08.598 +04:00 [INF] Starting web host
+2025-08-14 10:44:08.895 +04:00 [INF] Options were configured
+2025-08-14 10:44:08.927 +04:00 [INF] Infrastructure services registered
+2025-08-14 10:44:08.990 +04:00 [INF] Mediatr and Email Sender services registered
+2025-08-14 10:46:49.503 +04:00 [INF] Starting web host
+2025-08-14 10:46:49.755 +04:00 [INF] Options were configured
+2025-08-14 10:46:49.771 +04:00 [INF] Infrastructure services registered
+2025-08-14 10:46:49.811 +04:00 [INF] Mediatr and Email Sender services registered
+2025-08-14 10:47:20.315 +04:00 [INF] Starting web host
+2025-08-14 10:47:20.594 +04:00 [INF] Options were configured
+2025-08-14 10:47:20.612 +04:00 [INF] Infrastructure services registered
+2025-08-14 10:47:20.647 +04:00 [INF] Mediatr and Email Sender services registered
+2025-08-14 10:52:10.490 +04:00 [INF] Starting web host
+2025-08-14 10:52:10.781 +04:00 [INF] Options were configured
+2025-08-14 10:52:10.811 +04:00 [INF] Infrastructure services registered
+2025-08-14 10:52:10.875 +04:00 [INF] Mediatr and Email Sender services registered
+2025-08-14 10:54:46.145 +04:00 [INF] Starting web host
+2025-08-14 10:54:46.416 +04:00 [INF] Options were configured
+2025-08-14 10:54:46.436 +04:00 [INF] Infrastructure services registered
+2025-08-14 10:54:46.477 +04:00 [INF] Mediatr and Email Sender services registered
+2025-08-14 11:37:32.677 +04:00 [INF] Starting web host
+2025-08-14 11:37:32.967 +04:00 [INF] Options were configured
+2025-08-14 11:37:32.985 +04:00 [INF] Infrastructure services registered
+2025-08-14 11:37:33.025 +04:00 [INF] Mediatr and Email Sender services registered
+2025-08-14 11:56:26.463 +04:00 [INF] Starting web host
+2025-08-14 11:56:26.689 +04:00 [INF] Options were configured
+2025-08-14 11:56:26.696 +04:00 [INF] Infrastructure services registered
+2025-08-14 11:56:26.723 +04:00 [INF] Mediatr and Email Sender services registered
+2025-08-14 11:57:22.812 +04:00 [INF] Starting web host
+2025-08-14 11:57:22.982 +04:00 [INF] Options were configured
+2025-08-14 11:57:22.997 +04:00 [INF] Infrastructure services registered
+2025-08-14 11:57:23.028 +04:00 [INF] Mediatr and Email Sender services registered
+2025-08-14 11:58:31.289 +04:00 [INF] Starting web host
+2025-08-14 11:58:31.561 +04:00 [INF] Options were configured
+2025-08-14 11:58:31.580 +04:00 [INF] Infrastructure services registered
+2025-08-14 11:58:31.618 +04:00 [INF] Mediatr and Email Sender services registered
+2025-08-14 12:12:15.440 +04:00 [INF] Starting web host
+2025-08-14 12:12:15.790 +04:00 [INF] Options were configured
+2025-08-14 12:12:15.808 +04:00 [INF] Infrastructure services registered
+2025-08-14 12:12:15.848 +04:00 [INF] Mediatr and Email Sender services registered

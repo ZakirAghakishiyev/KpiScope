@@ -6,9 +6,12 @@ namespace KpiScope.Core.KpiGroupAggregate;
 public class KpiConfirmation : BaseEntity, IAggregateRoot
 {
     public int KpiGroupCompanyId { get; set; }
-    public int StepNumber { get; set; }
-    public List<KpiValue> KpiValues { get; set; } = [];
-    public List<KpiConfirmationUser> ConfirmationStepUsers { set; get; } = [];
-    public KpiGroupCompany? KpiGroup { get; set; }
-
+    public ConfirmationStatusEnum Status { get; set; } = ConfirmationStatusEnum.Pending;
+    public int CurrentStepNumber { get; set; }
+    public DateTime CreatedAt { get; set; } = DateTime.UtcNow;
+    public DateTime? CompletedAt { get; set; }
+    public List<KpiValue> KpiValues { get; set; } = new();
+    public List<KpiConfirmationStep> Steps { get; set; } = new();
+    public KpiGroupCompany? KpiGroupCompany { get; set; }
 }
+

@@ -2,6 +2,7 @@ using Autofac;
 using KpiScope.Core.KpiAggregate;
 using KpiScope.Web.Company;
 using KpiScope.Web.KPI;
+using KpiScope.Web.KpiConfirmation;
 using KpiScope.Web.KpiGroup;
 using KpiScope.Web.KpiGroupCompany;
 using KpiScope.Web.Register;
@@ -34,6 +35,10 @@ public class OrderAppModule : Module
             .InstancePerLifetimeScope();
         builder.RegisterType<KpiEndpointService>()
             .As<IKpiEndpointService>()
+            .InstancePerLifetimeScope();
+
+        builder.RegisterType<KpiConfirmationEndpointService>()
+            .As<IKpiConfirmationEndpointService>()
             .InstancePerLifetimeScope();
     }
 
