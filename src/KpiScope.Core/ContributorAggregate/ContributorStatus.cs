@@ -6,6 +6,9 @@ public class ContributorStatus : SmartEnum<ContributorStatus>
   public static readonly ContributorStatus Community = new(nameof(Community), 2);
   public static readonly ContributorStatus NotSet = new(nameof(NotSet), 3);
 
-  protected ContributorStatus(string name, int value) : base(name, value) { }
+  public ContributorStatus(string name, int value) : base(name, value) { }
+  public ContributorStatus():base("name", 10)
+  {
+  }
 }
 

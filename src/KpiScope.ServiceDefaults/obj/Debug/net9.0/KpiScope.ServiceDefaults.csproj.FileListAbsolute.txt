@@ -6,6 +6,7 @@ E:\Work\KPI\KpiScope\src\KpiScope.ServiceDefaults\obj\Debug\net9.0\KpiScope.Serv
 E:\Work\KPI\KpiScope\src\KpiScope.ServiceDefaults\obj\Debug\net9.0\KpiScope.ServiceDefaults.AssemblyInfoInputs.cache
 E:\Work\KPI\KpiScope\src\KpiScope.ServiceDefaults\obj\Debug\net9.0\KpiScope.ServiceDefaults.AssemblyInfo.cs
 E:\Work\KPI\KpiScope\src\KpiScope.ServiceDefaults\obj\Debug\net9.0\KpiScope.ServiceDefaults.csproj.CoreCompileInputs.cache
+E:\Work\KPI\KpiScope\src\KpiScope.ServiceDefaults\obj\Debug\net9.0\KpiScope.ServiceDefaults.sourcelink.json
 E:\Work\KPI\KpiScope\src\KpiScope.ServiceDefaults\obj\Debug\net9.0\KpiScope.ServiceDefaults.dll
 E:\Work\KPI\KpiScope\src\KpiScope.ServiceDefaults\obj\Debug\net9.0\refint\KpiScope.ServiceDefaults.dll
 E:\Work\KPI\KpiScope\src\KpiScope.ServiceDefaults\obj\Debug\net9.0\KpiScope.ServiceDefaults.pdb

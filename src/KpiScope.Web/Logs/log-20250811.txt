@@ -1,0 +1,60 @@
+2025-08-11 09:27:32.381 +04:00 [INF] Starting web host
+2025-08-11 09:27:33.582 +04:00 [INF] Options were configured
+2025-08-11 09:27:33.957 +04:00 [INF] Infrastructure services registered
+2025-08-11 09:27:34.676 +04:00 [INF] Mediatr and Email Sender services registered
+2025-08-11 09:48:26.187 +04:00 [INF] Starting web host
+2025-08-11 09:48:26.848 +04:00 [INF] Options were configured
+2025-08-11 09:48:27.028 +04:00 [INF] Infrastructure services registered
+2025-08-11 09:48:27.617 +04:00 [INF] Mediatr and Email Sender services registered
+2025-08-11 09:52:19.563 +04:00 [INF] Starting web host
+2025-08-11 09:52:19.752 +04:00 [INF] Options were configured
+2025-08-11 09:52:19.767 +04:00 [INF] Infrastructure services registered
+2025-08-11 09:52:19.794 +04:00 [INF] Mediatr and Email Sender services registered
+2025-08-11 09:55:41.614 +04:00 [INF] Starting web host
+2025-08-11 09:55:41.689 +04:00 [INF] Options were configured
+2025-08-11 09:55:41.694 +04:00 [INF] Infrastructure services registered
+2025-08-11 09:55:41.705 +04:00 [INF] Mediatr and Email Sender services registered
+2025-08-11 09:57:58.322 +04:00 [INF] Starting web host
+2025-08-11 09:57:58.499 +04:00 [INF] Options were configured
+2025-08-11 09:57:58.513 +04:00 [INF] Infrastructure services registered
+2025-08-11 09:57:58.540 +04:00 [INF] Mediatr and Email Sender services registered
+2025-08-11 10:00:54.813 +04:00 [INF] Starting web host
+2025-08-11 10:00:55.029 +04:00 [INF] Options were configured
+2025-08-11 10:00:55.055 +04:00 [INF] Infrastructure services registered
+2025-08-11 10:00:55.096 +04:00 [INF] Mediatr and Email Sender services registered
+2025-08-11 10:05:21.402 +04:00 [INF] Starting web host
+2025-08-11 10:05:21.621 +04:00 [INF] Options were configured
+2025-08-11 10:05:21.649 +04:00 [INF] Infrastructure services registered
+2025-08-11 10:05:21.728 +04:00 [INF] Mediatr and Email Sender services registered
+2025-08-11 11:18:44.074 +04:00 [INF] Starting web host
+2025-08-11 11:18:44.195 +04:00 [INF] Options were configured
+2025-08-11 11:18:44.201 +04:00 [INF] Infrastructure services registered
+2025-08-11 11:18:44.217 +04:00 [INF] Mediatr and Email Sender services registered
+2025-08-11 11:19:44.705 +04:00 [INF] Starting web host
+2025-08-11 11:19:44.838 +04:00 [INF] Options were configured
+2025-08-11 11:19:44.844 +04:00 [INF] Infrastructure services registered
+2025-08-11 11:19:44.865 +04:00 [INF] Mediatr and Email Sender services registered
+2025-08-11 11:22:07.061 +04:00 [INF] Starting web host
+2025-08-11 11:22:07.270 +04:00 [INF] Options were configured
+2025-08-11 11:22:07.286 +04:00 [INF] Infrastructure services registered
+2025-08-11 11:22:07.318 +04:00 [INF] Mediatr and Email Sender services registered
+2025-08-11 11:27:02.353 +04:00 [INF] Starting web host
+2025-08-11 11:27:02.514 +04:00 [INF] Options were configured
+2025-08-11 11:27:02.521 +04:00 [INF] Infrastructure services registered
+2025-08-11 11:27:02.544 +04:00 [INF] Mediatr and Email Sender services registered
+2025-08-11 11:45:38.521 +04:00 [INF] Starting web host
+2025-08-11 11:45:38.651 +04:00 [INF] Options were configured
+2025-08-11 11:45:38.657 +04:00 [INF] Infrastructure services registered
+2025-08-11 11:45:38.682 +04:00 [INF] Mediatr and Email Sender services registered
+2025-08-11 11:46:48.426 +04:00 [INF] Starting web host
+2025-08-11 11:46:50.054 +04:00 [INF] Options were configured
+2025-08-11 11:46:50.082 +04:00 [INF] Infrastructure services registered
+2025-08-11 11:46:50.125 +04:00 [INF] Mediatr and Email Sender services registered
+2025-08-11 11:58:44.955 +04:00 [INF] Starting web host
+2025-08-11 11:58:46.873 +04:00 [INF] Options were configured
+2025-08-11 11:58:47.353 +04:00 [INF] Infrastructure services registered
+2025-08-11 11:58:48.432 +04:00 [INF] Mediatr and Email Sender services registered
+2025-08-11 12:04:40.448 +04:00 [INF] Starting web host
+2025-08-11 12:04:40.626 +04:00 [INF] Options were configured
+2025-08-11 12:04:40.637 +04:00 [INF] Infrastructure services registered
+2025-08-11 12:04:40.665 +04:00 [INF] Mediatr and Email Sender services registered

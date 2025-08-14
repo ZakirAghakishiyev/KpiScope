@@ -101,6 +101,11 @@
             "Ardalis.Specification.EntityFrameworkCore": "9.2.0",
             "Aspire.Hosting.AppHost": "9.0.0",
             "Aspire.Hosting.Testing": "9.0.0",
+            "Autofac": "8.4.0",
+            "Autofac.Extensions.DependencyInjection": "10.0.0",
+            "Automapper": "15.0.1",
+            "AutoWrapper": "1.1.0",
+            "AutoWrapper.Core": "4.5.1",
             "Azure.Identity": "1.13.1",
             "coverlet.collector": "6.0.4",
             "FastEndpoints": "6.2.0",
@@ -110,6 +115,7 @@
             "FluentValidation.AspNetCore": "11.3.1",
             "MailKit": "4.13.0",
             "MediatR": "12.5.0",
+            "Microsoft.AspNetCore.Authentication.JwtBearer": "9.0.8",
             "Microsoft.AspNetCore.Mvc.Testing": "9.0.6",
             "Microsoft.EntityFrameworkCore.Design": "9.0.6",
             "Microsoft.EntityFrameworkCore.InMemory": "9.0.6",
@@ -131,7 +137,11 @@
             "OpenTelemetry.Instrumentation.Http": "1.12.0",
             "OpenTelemetry.Instrumentation.Runtime": "1.12.0",
             "ReportGenerator": "5.4.8",
+            "Serilog": "4.3.0",
             "Serilog.AspNetCore": "9.0.0",
+            "Serilog.Extensions.Hosting": "9.0.0",
+            "Serilog.Sinks.Console": "6.0.0",
+            "Serilog.Sinks.File": "7.0.0",
             "Shouldly": "4.3.0",
             "SQLite": "3.13.0",
             "Swashbuckle.AspNetCore": "6.5.0",
@@ -299,6 +309,11 @@
             "Ardalis.Specification.EntityFrameworkCore": "9.2.0",
             "Aspire.Hosting.AppHost": "9.0.0",
             "Aspire.Hosting.Testing": "9.0.0",
+            "Autofac": "8.4.0",
+            "Autofac.Extensions.DependencyInjection": "10.0.0",
+            "Automapper": "15.0.1",
+            "AutoWrapper": "1.1.0",
+            "AutoWrapper.Core": "4.5.1",
             "Azure.Identity": "1.13.1",
             "coverlet.collector": "6.0.4",
             "FastEndpoints": "6.2.0",
@@ -308,6 +323,7 @@
             "FluentValidation.AspNetCore": "11.3.1",
             "MailKit": "4.13.0",
             "MediatR": "12.5.0",
+            "Microsoft.AspNetCore.Authentication.JwtBearer": "9.0.8",
             "Microsoft.AspNetCore.Mvc.Testing": "9.0.6",
             "Microsoft.EntityFrameworkCore.Design": "9.0.6",
             "Microsoft.EntityFrameworkCore.InMemory": "9.0.6",
@@ -329,7 +345,11 @@
             "OpenTelemetry.Instrumentation.Http": "1.12.0",
             "OpenTelemetry.Instrumentation.Runtime": "1.12.0",
             "ReportGenerator": "5.4.8",
+            "Serilog": "4.3.0",
             "Serilog.AspNetCore": "9.0.0",
+            "Serilog.Extensions.Hosting": "9.0.0",
+            "Serilog.Sinks.Console": "6.0.0",
+            "Serilog.Sinks.File": "7.0.0",
             "Shouldly": "4.3.0",
             "SQLite": "3.13.0",
             "Swashbuckle.AspNetCore": "6.5.0",
@@ -454,6 +474,11 @@
             "Ardalis.Specification.EntityFrameworkCore": "9.2.0",
             "Aspire.Hosting.AppHost": "9.0.0",
             "Aspire.Hosting.Testing": "9.0.0",
+            "Autofac": "8.4.0",
+            "Autofac.Extensions.DependencyInjection": "10.0.0",
+            "Automapper": "15.0.1",
+            "AutoWrapper": "1.1.0",
+            "AutoWrapper.Core": "4.5.1",
             "Azure.Identity": "1.13.1",
             "coverlet.collector": "6.0.4",
             "FastEndpoints": "6.2.0",
@@ -463,6 +488,7 @@
             "FluentValidation.AspNetCore": "11.3.1",
             "MailKit": "4.13.0",
             "MediatR": "12.5.0",
+            "Microsoft.AspNetCore.Authentication.JwtBearer": "9.0.8",
             "Microsoft.AspNetCore.Mvc.Testing": "9.0.6",
             "Microsoft.EntityFrameworkCore.Design": "9.0.6",
             "Microsoft.EntityFrameworkCore.InMemory": "9.0.6",
@@ -484,7 +510,11 @@
             "OpenTelemetry.Instrumentation.Http": "1.12.0",
             "OpenTelemetry.Instrumentation.Runtime": "1.12.0",
             "ReportGenerator": "5.4.8",
+            "Serilog": "4.3.0",
             "Serilog.AspNetCore": "9.0.0",
+            "Serilog.Extensions.Hosting": "9.0.0",
+            "Serilog.Sinks.Console": "6.0.0",
+            "Serilog.Sinks.File": "7.0.0",
             "Shouldly": "4.3.0",
             "SQLite": "3.13.0",
             "Swashbuckle.AspNetCore": "6.5.0",
@@ -596,6 +626,11 @@
             "Ardalis.Specification.EntityFrameworkCore": "9.2.0",
             "Aspire.Hosting.AppHost": "9.0.0",
             "Aspire.Hosting.Testing": "9.0.0",
+            "Autofac": "8.4.0",
+            "Autofac.Extensions.DependencyInjection": "10.0.0",
+            "Automapper": "15.0.1",
+            "AutoWrapper": "1.1.0",
+            "AutoWrapper.Core": "4.5.1",
             "Azure.Identity": "1.13.1",
             "coverlet.collector": "6.0.4",
             "FastEndpoints": "6.2.0",
@@ -605,6 +640,7 @@
             "FluentValidation.AspNetCore": "11.3.1",
             "MailKit": "4.13.0",
             "MediatR": "12.5.0",
+            "Microsoft.AspNetCore.Authentication.JwtBearer": "9.0.8",
             "Microsoft.AspNetCore.Mvc.Testing": "9.0.6",
             "Microsoft.EntityFrameworkCore.Design": "9.0.6",
             "Microsoft.EntityFrameworkCore.InMemory": "9.0.6",
@@ -626,7 +662,11 @@
             "OpenTelemetry.Instrumentation.Http": "1.12.0",
             "OpenTelemetry.Instrumentation.Runtime": "1.12.0",
             "ReportGenerator": "5.4.8",
+            "Serilog": "4.3.0",
             "Serilog.AspNetCore": "9.0.0",
+            "Serilog.Extensions.Hosting": "9.0.0",
+            "Serilog.Sinks.Console": "6.0.0",
+            "Serilog.Sinks.File": "7.0.0",
             "Shouldly": "4.3.0",
             "SQLite": "3.13.0",
             "Swashbuckle.AspNetCore": "6.5.0",
@@ -728,6 +768,31 @@
               "version": "[10.1.0, )",
               "versionCentrallyManaged": true
             },
+            "AutoWrapper": {
+              "target": "Package",
+              "version": "[1.1.0, )",
+              "versionCentrallyManaged": true
+            },
+            "AutoWrapper.Core": {
+              "target": "Package",
+              "version": "[4.5.1, )",
+              "versionCentrallyManaged": true
+            },
+            "Autofac": {
+              "target": "Package",
+              "version": "[8.4.0, )",
+              "versionCentrallyManaged": true
+            },
+            "Autofac.Extensions.DependencyInjection": {
+              "target": "Package",
+              "version": "[10.0.0, )",
+              "versionCentrallyManaged": true
+            },
+            "Automapper": {
+              "target": "Package",
+              "version": "[15.0.1, )",
+              "versionCentrallyManaged": true
+            },
             "FastEndpoints": {
               "target": "Package",
               "version": "[6.2.0, )",
@@ -741,6 +806,11 @@
             "MediatR": {
               "target": "Package",
               "version": "[12.5.0, )",
+              "versionCentrallyManaged": true
+            },
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[9.0.8, )",
               "versionCentrallyManaged": true
             },
             "Microsoft.EntityFrameworkCore.Design": {
@@ -762,9 +832,29 @@
               "version": "[9.0.6, )",
               "versionCentrallyManaged": true
             },
+            "Serilog": {
+              "target": "Package",
+              "version": "[4.3.0, )",
+              "versionCentrallyManaged": true
+            },
             "Serilog.AspNetCore": {
               "target": "Package",
               "version": "[9.0.0, )",
+              "versionCentrallyManaged": true
+            },
+            "Serilog.Extensions.Hosting": {
+              "target": "Package",
+              "version": "[9.0.0, )",
+              "versionCentrallyManaged": true
+            },
+            "Serilog.Sinks.Console": {
+              "target": "Package",
+              "version": "[6.0.0, )",
+              "versionCentrallyManaged": true
+            },
+            "Serilog.Sinks.File": {
+              "target": "Package",
+              "version": "[7.0.0, )",
               "versionCentrallyManaged": true
             }
           },
@@ -780,6 +870,11 @@
             "Ardalis.Specification.EntityFrameworkCore": "9.2.0",
             "Aspire.Hosting.AppHost": "9.0.0",
             "Aspire.Hosting.Testing": "9.0.0",
+            "Autofac": "8.4.0",
+            "Autofac.Extensions.DependencyInjection": "10.0.0",
+            "Automapper": "15.0.1",
+            "AutoWrapper": "1.1.0",
+            "AutoWrapper.Core": "4.5.1",
             "Azure.Identity": "1.13.1",
             "coverlet.collector": "6.0.4",
             "FastEndpoints": "6.2.0",
@@ -789,6 +884,7 @@
             "FluentValidation.AspNetCore": "11.3.1",
             "MailKit": "4.13.0",
             "MediatR": "12.5.0",
+            "Microsoft.AspNetCore.Authentication.JwtBearer": "9.0.8",
             "Microsoft.AspNetCore.Mvc.Testing": "9.0.6",
             "Microsoft.EntityFrameworkCore.Design": "9.0.6",
             "Microsoft.EntityFrameworkCore.InMemory": "9.0.6",
@@ -810,7 +906,11 @@
             "OpenTelemetry.Instrumentation.Http": "1.12.0",
             "OpenTelemetry.Instrumentation.Runtime": "1.12.0",
             "ReportGenerator": "5.4.8",
+            "Serilog": "4.3.0",
             "Serilog.AspNetCore": "9.0.0",
+            "Serilog.Extensions.Hosting": "9.0.0",
+            "Serilog.Sinks.Console": "6.0.0",
+            "Serilog.Sinks.File": "7.0.0",
             "Shouldly": "4.3.0",
             "SQLite": "3.13.0",
             "Swashbuckle.AspNetCore": "6.5.0",

@@ -11,6 +11,7 @@ E:\Work\KPI\KpiScope\src\KpiScope.Infrastructure\obj\Debug\net9.0\KpiScope.Infra
 E:\Work\KPI\KpiScope\src\KpiScope.Infrastructure\obj\Debug\net9.0\KpiScope.Infrastructure.AssemblyInfoInputs.cache
 E:\Work\KPI\KpiScope\src\KpiScope.Infrastructure\obj\Debug\net9.0\KpiScope.Infrastructure.AssemblyInfo.cs
 E:\Work\KPI\KpiScope\src\KpiScope.Infrastructure\obj\Debug\net9.0\KpiScope.Infrastructure.csproj.CoreCompileInputs.cache
+E:\Work\KPI\KpiScope\src\KpiScope.Infrastructure\obj\Debug\net9.0\KpiScope.Infrastructure.sourcelink.json
 E:\Work\KPI\KpiScope\src\KpiScope.Infrastructure\obj\Debug\net9.0\KpiScope.B0A2F748.Up2Date
 E:\Work\KPI\KpiScope\src\KpiScope.Infrastructure\obj\Debug\net9.0\KpiScope.Infrastructure.dll
 E:\Work\KPI\KpiScope\src\KpiScope.Infrastructure\obj\Debug\net9.0\refint\KpiScope.Infrastructure.dll

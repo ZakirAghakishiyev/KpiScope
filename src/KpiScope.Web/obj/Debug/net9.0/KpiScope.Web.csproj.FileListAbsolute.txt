@@ -303,10 +303,13 @@ E:\Work\KPI\KpiScope\src\KpiScope.Web\bin\Debug\net9.0\FastEndpoints.Attributes.
 E:\Work\KPI\KpiScope\src\KpiScope.Web\bin\Debug\net9.0\FastEndpoints.Messaging.Core.dll
 E:\Work\KPI\KpiScope\src\KpiScope.Web\bin\Debug\net9.0\FastEndpoints.Swagger.dll
 E:\Work\KPI\KpiScope\src\KpiScope.Web\bin\Debug\net9.0\FluentValidation.dll
+E:\Work\KPI\KpiScope\src\KpiScope.Web\bin\Debug\net9.0\FluentValidation.AspNetCore.dll
+E:\Work\KPI\KpiScope\src\KpiScope.Web\bin\Debug\net9.0\FluentValidation.DependencyInjectionExtensions.dll
 E:\Work\KPI\KpiScope\src\KpiScope.Web\bin\Debug\net9.0\Humanizer.dll
 E:\Work\KPI\KpiScope\src\KpiScope.Web\bin\Debug\net9.0\MailKit.dll
 E:\Work\KPI\KpiScope\src\KpiScope.Web\bin\Debug\net9.0\MediatR.dll
 E:\Work\KPI\KpiScope\src\KpiScope.Web\bin\Debug\net9.0\MediatR.Contracts.dll
+E:\Work\KPI\KpiScope\src\KpiScope.Web\bin\Debug\net9.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
 E:\Work\KPI\KpiScope\src\KpiScope.Web\bin\Debug\net9.0\Microsoft.Bcl.AsyncInterfaces.dll
 E:\Work\KPI\KpiScope\src\KpiScope.Web\bin\Debug\net9.0\Microsoft.Build.Locator.dll
 E:\Work\KPI\KpiScope\src\KpiScope.Web\bin\Debug\net9.0\Microsoft.CodeAnalysis.dll
@@ -537,6 +540,7 @@ E:\Work\KPI\KpiScope\src\KpiScope.Web\obj\Debug\net9.0\KpiScope.Web.AssemblyInfo
 E:\Work\KPI\KpiScope\src\KpiScope.Web\obj\Debug\net9.0\KpiScope.Web.csproj.CoreCompileInputs.cache
 E:\Work\KPI\KpiScope\src\KpiScope.Web\obj\Debug\net9.0\KpiScope.Web.MvcApplicationPartsAssemblyInfo.cs
 E:\Work\KPI\KpiScope\src\KpiScope.Web\obj\Debug\net9.0\KpiScope.Web.MvcApplicationPartsAssemblyInfo.cache
+E:\Work\KPI\KpiScope\src\KpiScope.Web\obj\Debug\net9.0\KpiScope.Web.sourcelink.json
 E:\Work\KPI\KpiScope\src\KpiScope.Web\obj\Debug\net9.0\scopedcss\bundle\KpiScope.Web.styles.css
 E:\Work\KPI\KpiScope\src\KpiScope.Web\obj\Debug\net9.0\staticwebassets.build.json
 E:\Work\KPI\KpiScope\src\KpiScope.Web\obj\Debug\net9.0\staticwebassets.development.json
@@ -554,3 +558,7 @@ E:\Work\KPI\KpiScope\src\KpiScope.Web\obj\Debug\net9.0\KpiScope.Web.xml
 E:\Work\KPI\KpiScope\src\KpiScope.Web\obj\Debug\net9.0\KpiScope.Web.pdb
 E:\Work\KPI\KpiScope\src\KpiScope.Web\obj\Debug\net9.0\KpiScope.Web.genruntimeconfig.cache
 E:\Work\KPI\KpiScope\src\KpiScope.Web\obj\Debug\net9.0\ref\KpiScope.Web.dll
+E:\Work\KPI\KpiScope\src\KpiScope.Web\bin\Debug\net9.0\AutoWrapper.dll
+E:\Work\KPI\KpiScope\src\KpiScope.Web\bin\Debug\net9.0\Autofac.dll
+E:\Work\KPI\KpiScope\src\KpiScope.Web\bin\Debug\net9.0\Autofac.Extensions.DependencyInjection.dll
+E:\Work\KPI\KpiScope\src\KpiScope.Web\bin\Debug\net9.0\AutoMapper.dll

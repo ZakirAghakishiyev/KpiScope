@@ -11,5 +11,5 @@ public class KpiGroupCompany : BaseEntity, IAggregateRoot
     public int UserId { get; set; }
     public KpiGroup? KpiGroup { get; set; }
     public Company? Company { get; set; }
-    public User? User { get; set; }
+    public User? Owner { get; set; }
 }

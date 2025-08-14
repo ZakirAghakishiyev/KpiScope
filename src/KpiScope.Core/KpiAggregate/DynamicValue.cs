@@ -4,7 +4,7 @@ namespace KpiScope.Core.KpiAggregate;
 
 public class DynamicValue : BaseEntity, IAggregateRoot
 {
-    public TypeEnum Type { get; set; }
+    public List<TypeEnum> Types { get; set; } = [];
     public required string JsonValue { get; set; }
     public string? Name { get; set; }
 }

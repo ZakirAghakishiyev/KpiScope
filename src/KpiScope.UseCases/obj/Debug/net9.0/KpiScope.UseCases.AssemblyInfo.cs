@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("KpiScope.UseCases")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+1c2dee41e5c190f78b23a46e1e51c02aba2d85cc")]
 [assembly: System.Reflection.AssemblyProductAttribute("KpiScope.UseCases")]
 [assembly: System.Reflection.AssemblyTitleAttribute("KpiScope.UseCases")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

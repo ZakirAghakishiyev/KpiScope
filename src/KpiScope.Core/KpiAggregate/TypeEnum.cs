@@ -2,8 +2,11 @@ namespace KpiScope.Core.KpiAggregate;
 
 public enum TypeEnum
 {
-    Int =1,
+    Int = 1,
     Double,
     String,
-    List
+    ListInt,
+    ListDouble,
+    ListString,
+    DateTime
 }

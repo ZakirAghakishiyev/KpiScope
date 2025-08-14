@@ -1,0 +1,467 @@
+2025-08-11 09:27:43.272 +04:00 [WRN] You do not have a valid license key for the Lucky Penny software AutoMapper. This is allowed for development and testing scenarios. If you are running in production you are required to have a licensed version. Please visit https://luckypennysoftware.com to obtain a valid license.
+2025-08-11 09:27:43.307 +04:00 [INF] Registered 12 endpoints in 8,592 milliseconds.
+2025-08-11 09:27:47.688 +04:00 [INF] Executed DbCommand (66ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2025-08-11 09:27:48.139 +04:00 [INF] Executed DbCommand (426ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+
+IF EXISTS
+    (SELECT *
+     FROM [sys].[objects] o
+     WHERE [o].[type] = 'U'
+     AND [o].[is_ms_shipped] = 0
+     AND NOT EXISTS (SELECT *
+         FROM [sys].[extended_properties] AS [ep]
+         WHERE [ep].[major_id] = [o].[object_id]
+             AND [ep].[minor_id] = 0
+             AND [ep].[class] = 1
+             AND [ep].[name] = N'microsoft_database_tools_support'
+    )
+)
+SELECT 1 ELSE SELECT 0
+2025-08-11 09:27:48.172 +04:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2025-08-11 09:27:48.224 +04:00 [INF] Executed DbCommand (49ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+
+IF EXISTS
+    (SELECT *
+     FROM [sys].[objects] o
+     WHERE [o].[type] = 'U'
+     AND [o].[is_ms_shipped] = 0
+     AND NOT EXISTS (SELECT *
+         FROM [sys].[extended_properties] AS [ep]
+         WHERE [ep].[major_id] = [o].[object_id]
+             AND [ep].[minor_id] = 0
+             AND [ep].[class] = 1
+             AND [ep].[name] = N'microsoft_database_tools_support'
+    )
+)
+SELECT 1 ELSE SELECT 0
+2025-08-11 09:27:48.301 +04:00 [INF] No action descriptors found. This may indicate an incorrectly configured application or missing application parts. To learn more, visit https://aka.ms/aspnet/mvc/app-parts
+2025-08-11 09:27:48.323 +04:00 [INF] User profile is available. Using 'C:\Users\zakir\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-08-11 09:27:48.663 +04:00 [INF] Now listening on: https://localhost:57679
+2025-08-11 09:27:48.665 +04:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-08-11 09:27:48.667 +04:00 [INF] Hosting environment: Development
+2025-08-11 09:27:48.668 +04:00 [INF] Content root path: E:\Work\KPI\KpiScope\src\KpiScope.Web
+2025-08-11 09:27:56.399 +04:00 [INF] Request starting HTTP/2 GET https://localhost:57679/ - null null
+2025-08-11 09:27:58.859 +04:00 [INF] Source:[::1] Request: GET https localhost:57679/   Responded with [404] in 161ms
+2025-08-11 09:27:58.867 +04:00 [INF] Request finished HTTP/2 GET https://localhost:57679/ - 404 157 application/json 2471.2503ms
+2025-08-11 09:27:58.891 +04:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:57679/, Response status code: 404
+2025-08-11 09:28:00.013 +04:00 [INF] Request starting HTTP/2 GET https://localhost:57679/favicon.ico - null null
+2025-08-11 09:28:00.039 +04:00 [INF] Source:[::1] Request: GET https localhost:57679/favicon.ico   Responded with [404] in 1ms
+2025-08-11 09:28:00.041 +04:00 [INF] Request finished HTTP/2 GET https://localhost:57679/favicon.ico - 404 157 application/json 27.3846ms
+2025-08-11 09:28:00.046 +04:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:57679/favicon.ico, Response status code: 404
+2025-08-11 09:28:01.551 +04:00 [INF] Request starting HTTP/2 GET https://localhost:57679/swagger/index.html - null null
+2025-08-11 09:28:01.594 +04:00 [INF] Request finished HTTP/2 GET https://localhost:57679/swagger/index.html - 200 null text/html; charset=utf-8 43.205ms
+2025-08-11 09:28:03.209 +04:00 [INF] Request starting HTTP/2 GET https://localhost:57679/swagger/v1/swagger.json - null null
+2025-08-11 09:28:04.568 +04:00 [INF] Request finished HTTP/2 GET https://localhost:57679/swagger/v1/swagger.json - 200 null application/json; charset=utf-8 1358.5876ms
+2025-08-11 09:48:05.840 +04:00 [INF] Application is shutting down...
+2025-08-11 09:48:32.131 +04:00 [WRN] You do not have a valid license key for the Lucky Penny software AutoMapper. This is allowed for development and testing scenarios. If you are running in production you are required to have a licensed version. Please visit https://luckypennysoftware.com to obtain a valid license.
+2025-08-11 09:48:32.155 +04:00 [INF] Registered 17 endpoints in 4,407 milliseconds.
+2025-08-11 09:48:33.940 +04:00 [INF] Executed DbCommand (22ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2025-08-11 09:48:34.210 +04:00 [INF] Executed DbCommand (255ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+
+IF EXISTS
+    (SELECT *
+     FROM [sys].[objects] o
+     WHERE [o].[type] = 'U'
+     AND [o].[is_ms_shipped] = 0
+     AND NOT EXISTS (SELECT *
+         FROM [sys].[extended_properties] AS [ep]
+         WHERE [ep].[major_id] = [o].[object_id]
+             AND [ep].[minor_id] = 0
+             AND [ep].[class] = 1
+             AND [ep].[name] = N'microsoft_database_tools_support'
+    )
+)
+SELECT 1 ELSE SELECT 0
+2025-08-11 09:48:34.229 +04:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2025-08-11 09:48:34.236 +04:00 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+
+IF EXISTS
+    (SELECT *
+     FROM [sys].[objects] o
+     WHERE [o].[type] = 'U'
+     AND [o].[is_ms_shipped] = 0
+     AND NOT EXISTS (SELECT *
+         FROM [sys].[extended_properties] AS [ep]
+         WHERE [ep].[major_id] = [o].[object_id]
+             AND [ep].[minor_id] = 0
+             AND [ep].[class] = 1
+             AND [ep].[name] = N'microsoft_database_tools_support'
+    )
+)
+SELECT 1 ELSE SELECT 0
+2025-08-11 09:48:34.301 +04:00 [INF] No action descriptors found. This may indicate an incorrectly configured application or missing application parts. To learn more, visit https://aka.ms/aspnet/mvc/app-parts
+2025-08-11 09:48:34.322 +04:00 [INF] User profile is available. Using 'C:\Users\zakir\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-08-11 09:48:34.583 +04:00 [INF] Now listening on: https://localhost:57679
+2025-08-11 09:48:34.585 +04:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-08-11 09:48:34.587 +04:00 [INF] Hosting environment: Development
+2025-08-11 09:48:34.588 +04:00 [INF] Content root path: E:\Work\KPI\KpiScope\src\KpiScope.Web
+2025-08-11 09:48:46.851 +04:00 [INF] Request starting HTTP/2 GET https://localhost:57679/swagger/index.html - null null
+2025-08-11 09:48:48.149 +04:00 [INF] Request finished HTTP/2 GET https://localhost:57679/swagger/index.html - 200 null text/html; charset=utf-8 1300.3557ms
+2025-08-11 09:48:48.717 +04:00 [INF] Request starting HTTP/2 GET https://localhost:57679/swagger/v1/swagger.json - null null
+2025-08-11 09:48:49.525 +04:00 [INF] Request finished HTTP/2 GET https://localhost:57679/swagger/v1/swagger.json - 200 null application/json; charset=utf-8 808.0099ms
+2025-08-11 09:49:32.494 +04:00 [INF] Request starting HTTP/2 POST https://localhost:57679/KpiGroups - application/json 32
+2025-08-11 09:49:32.527 +04:00 [INF] Executing endpoint 'HTTP: POST /KpiGroups'
+2025-08-11 09:49:33.181 +04:00 [INF] Executed DbCommand (179ms) [Parameters=[@p0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [KpiGroups] ([Name])
+OUTPUT INSERTED.[Id]
+VALUES (@p0);
+2025-08-11 09:49:33.259 +04:00 [INF] Executed endpoint 'HTTP: POST /KpiGroups'
+2025-08-11 09:49:33.329 +04:00 [INF] Source:[::1] Request: POST https localhost:57679/KpiGroups  {
+  "name": "KPI Group Name 1"
+} Responded with [200] in 810ms
+2025-08-11 09:49:33.336 +04:00 [INF] Request finished HTTP/2 POST https://localhost:57679/KpiGroups - 200 134 application/json 842.2234ms
+2025-08-11 09:49:39.899 +04:00 [INF] Request starting HTTP/2 POST https://localhost:57679/KpiGroups - application/json 32
+2025-08-11 09:49:39.903 +04:00 [INF] Executing endpoint 'HTTP: POST /KpiGroups'
+2025-08-11 09:49:39.911 +04:00 [INF] Executed DbCommand (2ms) [Parameters=[@p0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [KpiGroups] ([Name])
+OUTPUT INSERTED.[Id]
+VALUES (@p0);
+2025-08-11 09:49:39.917 +04:00 [INF] Executed endpoint 'HTTP: POST /KpiGroups'
+2025-08-11 09:49:39.921 +04:00 [INF] Source:[::1] Request: POST https localhost:57679/KpiGroups  {
+  "name": "KPI Group Name 2"
+} Responded with [200] in 17ms
+2025-08-11 09:49:39.924 +04:00 [INF] Request finished HTTP/2 POST https://localhost:57679/KpiGroups - 200 134 application/json 24.9069ms
+2025-08-11 09:49:47.712 +04:00 [INF] Request starting HTTP/2 GET https://localhost:57679/KpiGroups - null null
+2025-08-11 09:49:47.717 +04:00 [INF] Executing endpoint 'HTTP: GET /KpiGroups'
+2025-08-11 09:49:48.046 +04:00 [INF] Executed DbCommand (7ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [k].[Id], [k].[Name]
+FROM [KpiGroups] AS [k]
+2025-08-11 09:49:48.082 +04:00 [INF] Executed endpoint 'HTTP: GET /KpiGroups'
+2025-08-11 09:49:48.087 +04:00 [ERR] [500]: Unhandled Exception occurred. Unable to process the request.
+AutoMapper.AutoMapperMappingException: Error mapping types.
+
+Mapping types:
+List`1 -> IEnumerable`1
+System.Collections.Generic.List`1[[KpiScope.Core.KpiGroupAggregate.KpiGroup, KpiScope.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]] -> System.Collections.Generic.IEnumerable`1[[KpiScope.Web.KpiGroup.List.ListKpiGroupResponse, KpiScope.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]
+ ---> AutoMapper.AutoMapperMappingException: Missing type map configuration or unsupported mapping.
+
+Mapping types:
+KpiGroup -> ListKpiGroupResponse
+KpiScope.Core.KpiGroupAggregate.KpiGroup -> KpiScope.Web.KpiGroup.List.ListKpiGroupResponse
+   at lambda_method1020(Closure, KpiGroup, ListKpiGroupResponse, ResolutionContext)
+   at lambda_method1019(Closure, Object, IEnumerable`1, ResolutionContext)
+   --- End of inner exception stack trace ---
+   at lambda_method1019(Closure, Object, IEnumerable`1, ResolutionContext)
+   at KpiScope.Web.KpiGroup.KpiGroupEndpointService.ListAsync(CancellationToken ct) in E:\Work\KPI\KpiScope\src\KpiScope.Web\KpiGroup\KpiGroupEndpointService.cs:line 66
+   at KpiScope.Web.KpiGroup.List.List.HandleAsync(CancellationToken ct) in E:\Work\KPI\KpiScope\src\KpiScope.Web\KpiGroup\List\List.cs:line 13
+   at FastEndpoints.Endpoint`2.ExecAsync(CancellationToken ct)
+   at FastEndpoints.Endpoint`2.ExecAsync(CancellationToken ct)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at AutoWrapper.Base.WrapperBase.InvokeAsyncBase(HttpContext context, AutoWrapperMembers awm)
+2025-08-11 09:49:48.136 +04:00 [INF] Source:[::1] Request: GET https localhost:57679/KpiGroups   Responded with [500] in 418ms
+2025-08-11 09:49:48.137 +04:00 [INF] Request finished HTTP/2 GET https://localhost:57679/KpiGroups - 500 165 application/json 425.388ms
+2025-08-11 09:49:56.153 +04:00 [INF] Request starting HTTP/2 GET https://localhost:57679/KpiGroups/2 - null null
+2025-08-11 09:49:56.158 +04:00 [INF] Executing endpoint 'HTTP: GET /KpiGroups/{Id}'
+2025-08-11 09:49:56.316 +04:00 [INF] Executed DbCommand (16ms) [Parameters=[@__p_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [k].[Id], [k].[Name]
+FROM [KpiGroups] AS [k]
+WHERE [k].[Id] = @__p_0
+2025-08-11 09:49:56.323 +04:00 [INF] Executed endpoint 'HTTP: GET /KpiGroups/{Id}'
+2025-08-11 09:49:56.324 +04:00 [ERR] [500]: Unhandled Exception occurred. Unable to process the request.
+AutoMapper.AutoMapperMappingException: Missing type map configuration or unsupported mapping.
+
+Mapping types:
+KpiGroup -> GetKpiGroupByIdResponse
+KpiScope.Core.KpiGroupAggregate.KpiGroup -> KpiScope.Web.KpiGroup.GetById.GetKpiGroupByIdResponse
+   at lambda_method1041(Closure, Object, GetKpiGroupByIdResponse, ResolutionContext)
+   at KpiScope.Web.KpiGroup.KpiGroupEndpointService.GetAsync(GetKpiGroupByIdRequest req, CancellationToken ct) in E:\Work\KPI\KpiScope\src\KpiScope.Web\KpiGroup\KpiGroupEndpointService.cs:line 60
+   at KpiScope.Web.KpiGroup.GetById.GetById.HandleAsync(GetKpiGroupByIdRequest req, CancellationToken ct) in E:\Work\KPI\KpiScope\src\KpiScope.Web\KpiGroup\GetById\GetById.cs:line 13
+   at FastEndpoints.Endpoint`2.ExecAsync(CancellationToken ct)
+   at FastEndpoints.Endpoint`2.ExecAsync(CancellationToken ct)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at AutoWrapper.Base.WrapperBase.InvokeAsyncBase(HttpContext context, AutoWrapperMembers awm)
+2025-08-11 09:49:56.332 +04:00 [INF] Source:[::1] Request: GET https localhost:57679/KpiGroups/2   Responded with [500] in 173ms
+2025-08-11 09:49:56.335 +04:00 [INF] Request finished HTTP/2 GET https://localhost:57679/KpiGroups/2 - 500 165 application/json 181.2297ms
+2025-08-11 09:50:05.439 +04:00 [INF] Request starting HTTP/2 DELETE https://localhost:57679/KpiGroups/1 - null null
+2025-08-11 09:50:05.443 +04:00 [INF] Executing endpoint 'HTTP: DELETE /KpiGroups/{Id}'
+2025-08-11 09:50:05.453 +04:00 [INF] Executed DbCommand (0ms) [Parameters=[@__p_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [k].[Id], [k].[Name]
+FROM [KpiGroups] AS [k]
+WHERE [k].[Id] = @__p_0
+2025-08-11 09:50:05.536 +04:00 [INF] Executed DbCommand (70ms) [Parameters=[@p0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+DELETE FROM [KpiGroups]
+OUTPUT 1
+WHERE [Id] = @p0;
+2025-08-11 09:50:05.550 +04:00 [INF] Executed endpoint 'HTTP: DELETE /KpiGroups/{Id}'
+2025-08-11 09:50:05.553 +04:00 [ERR] [500]: Unhandled Exception occurred. Unable to process the request.
+AutoMapper.AutoMapperMappingException: Missing type map configuration or unsupported mapping.
+
+Mapping types:
+KpiGroup -> DeleteKpiGroupResponse
+KpiScope.Core.KpiGroupAggregate.KpiGroup -> KpiScope.Web.KpiGroup.Delete.DeleteKpiGroupResponse
+   at lambda_method1046(Closure, Object, DeleteKpiGroupResponse, ResolutionContext)
+   at KpiScope.Web.KpiGroup.KpiGroupEndpointService.DeleteAsync(DeleteKpiGroupRequest req, CancellationToken ct) in E:\Work\KPI\KpiScope\src\KpiScope.Web\KpiGroup\KpiGroupEndpointService.cs:line 44
+   at KpiScope.Web.KpiGroup.Delete.Delete.HandleAsync(DeleteKpiGroupRequest req, CancellationToken ct) in E:\Work\KPI\KpiScope\src\KpiScope.Web\KpiGroup\Delete\Delete.cs:line 13
+   at FastEndpoints.Endpoint`2.ExecAsync(CancellationToken ct)
+   at FastEndpoints.Endpoint`2.ExecAsync(CancellationToken ct)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at AutoWrapper.Base.WrapperBase.InvokeAsyncBase(HttpContext context, AutoWrapperMembers awm)
+2025-08-11 09:50:05.562 +04:00 [INF] Source:[::1] Request: DELETE https localhost:57679/KpiGroups/1   Responded with [500] in 118ms
+2025-08-11 09:50:05.564 +04:00 [INF] Request finished HTTP/2 DELETE https://localhost:57679/KpiGroups/1 - 500 165 application/json 124.3762ms
+2025-08-11 09:52:06.572 +04:00 [INF] Application is shutting down...
+2025-08-11 09:52:20.954 +04:00 [WRN] You do not have a valid license key for the Lucky Penny software AutoMapper. This is allowed for development and testing scenarios. If you are running in production you are required to have a licensed version. Please visit https://luckypennysoftware.com to obtain a valid license.
+2025-08-11 09:52:20.992 +04:00 [INF] Registered 17 endpoints in 1,188 milliseconds.
+2025-08-11 09:52:22.413 +04:00 [INF] Executed DbCommand (24ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2025-08-11 09:52:22.485 +04:00 [INF] Executed DbCommand (58ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+
+IF EXISTS
+    (SELECT *
+     FROM [sys].[objects] o
+     WHERE [o].[type] = 'U'
+     AND [o].[is_ms_shipped] = 0
+     AND NOT EXISTS (SELECT *
+         FROM [sys].[extended_properties] AS [ep]
+         WHERE [ep].[major_id] = [o].[object_id]
+             AND [ep].[minor_id] = 0
+             AND [ep].[class] = 1
+             AND [ep].[name] = N'microsoft_database_tools_support'
+    )
+)
+SELECT 1 ELSE SELECT 0
+2025-08-11 09:52:22.715 +04:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2025-08-11 09:52:22.716 +04:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+
+IF EXISTS
+    (SELECT *
+     FROM [sys].[objects] o
+     WHERE [o].[type] = 'U'
+     AND [o].[is_ms_shipped] = 0
+     AND NOT EXISTS (SELECT *
+         FROM [sys].[extended_properties] AS [ep]
+         WHERE [ep].[major_id] = [o].[object_id]
+             AND [ep].[minor_id] = 0
+             AND [ep].[class] = 1
+             AND [ep].[name] = N'microsoft_database_tools_support'
+    )
+)
+SELECT 1 ELSE SELECT 0
+2025-08-11 09:52:22.786 +04:00 [INF] No action descriptors found. This may indicate an incorrectly configured application or missing application parts. To learn more, visit https://aka.ms/aspnet/mvc/app-parts
+2025-08-11 09:52:22.815 +04:00 [INF] User profile is available. Using 'C:\Users\zakir\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-08-11 09:52:23.154 +04:00 [INF] Now listening on: https://localhost:57679
+2025-08-11 09:52:23.154 +04:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-08-11 09:52:23.155 +04:00 [INF] Hosting environment: Development
+2025-08-11 09:52:23.155 +04:00 [INF] Content root path: E:\Work\KPI\KpiScope\src\KpiScope.Web
+2025-08-11 09:52:55.799 +04:00 [INF] Request starting HTTP/2 GET https://localhost:57679/swagger/index.html - null null
+2025-08-11 09:52:56.074 +04:00 [INF] Request finished HTTP/2 GET https://localhost:57679/swagger/index.html - 200 null text/html; charset=utf-8 275.671ms
+2025-08-11 09:52:56.565 +04:00 [INF] Request starting HTTP/2 GET https://localhost:57679/swagger/v1/swagger.json - null null
+2025-08-11 09:52:57.376 +04:00 [INF] Request finished HTTP/2 GET https://localhost:57679/swagger/v1/swagger.json - 200 null application/json; charset=utf-8 810.8979ms
+2025-08-11 09:53:00.677 +04:00 [INF] Request starting HTTP/2 GET https://localhost:57679/KpiGroups - null null
+2025-08-11 09:53:00.698 +04:00 [INF] Executing endpoint 'HTTP: GET /KpiGroups'
+2025-08-11 09:53:01.180 +04:00 [INF] Executed DbCommand (9ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [k].[Id], [k].[Name]
+FROM [KpiGroups] AS [k]
+2025-08-11 09:53:25.369 +04:00 [INF] Executed endpoint 'HTTP: GET /KpiGroups'
+2025-08-11 09:53:25.372 +04:00 [ERR] [500]: Unhandled Exception occurred. Unable to process the request.
+AutoMapper.AutoMapperMappingException: Error mapping types.
+
+Mapping types:
+List`1 -> IEnumerable`1
+System.Collections.Generic.List`1[[KpiScope.Core.KpiGroupAggregate.KpiGroup, KpiScope.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]] -> System.Collections.Generic.IEnumerable`1[[KpiScope.Web.KpiGroup.List.ListKpiGroupResponse, KpiScope.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]
+ ---> AutoMapper.AutoMapperMappingException: Missing type map configuration or unsupported mapping.
+
+Mapping types:
+KpiGroup -> ListKpiGroupResponse
+KpiScope.Core.KpiGroupAggregate.KpiGroup -> KpiScope.Web.KpiGroup.List.ListKpiGroupResponse
+   at lambda_method985(Closure, KpiGroup, ListKpiGroupResponse, ResolutionContext)
+   at lambda_method984(Closure, Object, IEnumerable`1, ResolutionContext)
+   --- End of inner exception stack trace ---
+   at lambda_method984(Closure, Object, IEnumerable`1, ResolutionContext)
+   at KpiScope.Web.KpiGroup.KpiGroupEndpointService.ListAsync(CancellationToken ct) in E:\Work\KPI\KpiScope\src\KpiScope.Web\KpiGroup\KpiGroupEndpointService.cs:line 66
+   at KpiScope.Web.KpiGroup.List.List.HandleAsync(CancellationToken ct) in E:\Work\KPI\KpiScope\src\KpiScope.Web\KpiGroup\List\List.cs:line 13
+   at FastEndpoints.Endpoint`2.ExecAsync(CancellationToken ct)
+   at FastEndpoints.Endpoint`2.ExecAsync(CancellationToken ct)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at AutoWrapper.Base.WrapperBase.InvokeAsyncBase(HttpContext context, AutoWrapperMembers awm)
+2025-08-11 09:53:25.422 +04:00 [INF] Source:[::1] Request: GET https localhost:57679/KpiGroups   Responded with [500] in 24720ms
+2025-08-11 09:53:25.428 +04:00 [INF] Request finished HTTP/2 GET https://localhost:57679/KpiGroups - 500 165 application/json 24750.3617ms
+2025-08-11 09:53:32.431 +04:00 [INF] Request starting HTTP/2 DELETE https://localhost:57679/KpiGroups/2 - null null
+2025-08-11 09:53:32.433 +04:00 [INF] Executing endpoint 'HTTP: DELETE /KpiGroups/{Id}'
+2025-08-11 09:53:45.528 +04:00 [INF] Executed DbCommand (21ms) [Parameters=[@__p_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [k].[Id], [k].[Name]
+FROM [KpiGroups] AS [k]
+WHERE [k].[Id] = @__p_0
+2025-08-11 09:53:45.617 +04:00 [INF] Executed DbCommand (12ms) [Parameters=[@p0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+DELETE FROM [KpiGroups]
+OUTPUT 1
+WHERE [Id] = @p0;
+2025-08-11 09:55:42.345 +04:00 [WRN] You do not have a valid license key for the Lucky Penny software AutoMapper. This is allowed for development and testing scenarios. If you are running in production you are required to have a licensed version. Please visit https://luckypennysoftware.com to obtain a valid license.
+2025-08-11 09:55:42.377 +04:00 [INF] Registered 17 endpoints in 659 milliseconds.
+2025-08-11 09:55:43.344 +04:00 [INF] Executed DbCommand (23ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2025-08-11 09:55:43.417 +04:00 [INF] Executed DbCommand (54ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+
+IF EXISTS
+    (SELECT *
+     FROM [sys].[objects] o
+     WHERE [o].[type] = 'U'
+     AND [o].[is_ms_shipped] = 0
+     AND NOT EXISTS (SELECT *
+         FROM [sys].[extended_properties] AS [ep]
+         WHERE [ep].[major_id] = [o].[object_id]
+             AND [ep].[minor_id] = 0
+             AND [ep].[class] = 1
+             AND [ep].[name] = N'microsoft_database_tools_support'
+    )
+)
+SELECT 1 ELSE SELECT 0
+2025-08-11 09:55:43.438 +04:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2025-08-11 09:55:43.443 +04:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+
+IF EXISTS
+    (SELECT *
+     FROM [sys].[objects] o
+     WHERE [o].[type] = 'U'
+     AND [o].[is_ms_shipped] = 0
+     AND NOT EXISTS (SELECT *
+         FROM [sys].[extended_properties] AS [ep]
+         WHERE [ep].[major_id] = [o].[object_id]
+             AND [ep].[minor_id] = 0
+             AND [ep].[class] = 1
+             AND [ep].[name] = N'microsoft_database_tools_support'
+    )
+)
+SELECT 1 ELSE SELECT 0
+2025-08-11 09:55:43.525 +04:00 [INF] No action descriptors found. This may indicate an incorrectly configured application or missing application parts. To learn more, visit https://aka.ms/aspnet/mvc/app-parts
+2025-08-11 09:55:43.550 +04:00 [INF] User profile is available. Using 'C:\Users\zakir\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-08-11 09:55:43.755 +04:00 [INF] Now listening on: https://localhost:57679
+2025-08-11 09:55:43.756 +04:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-08-11 09:55:43.757 +04:00 [INF] Hosting environment: Development
+2025-08-11 09:55:43.759 +04:00 [INF] Content root path: E:\Work\KPI\KpiScope\src\KpiScope.Web
+2025-08-11 09:55:45.930 +04:00 [INF] Request starting HTTP/2 GET https://localhost:57679/swagger/index.html - null null
+2025-08-11 09:55:46.054 +04:00 [INF] Request finished HTTP/2 GET https://localhost:57679/swagger/index.html - 200 null text/html; charset=utf-8 123.8015ms
+2025-08-11 09:55:46.609 +04:00 [INF] Request starting HTTP/2 GET https://localhost:57679/swagger/v1/swagger.json - null null
+2025-08-11 09:55:47.719 +04:00 [INF] Request finished HTTP/2 GET https://localhost:57679/swagger/v1/swagger.json - 200 null application/json; charset=utf-8 1110.7635ms
+2025-08-11 09:55:56.726 +04:00 [INF] Request starting HTTP/2 POST https://localhost:57679/KpiGroups - application/json 32
+2025-08-11 09:55:56.754 +04:00 [INF] Executing endpoint 'HTTP: POST /KpiGroups'
+2025-08-11 09:55:57.169 +04:00 [INF] Executed DbCommand (17ms) [Parameters=[@p0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [KpiGroups] ([Name])
+OUTPUT INSERTED.[Id]
+VALUES (@p0);
+2025-08-11 09:55:57.230 +04:00 [INF] Executed endpoint 'HTTP: POST /KpiGroups'
+2025-08-11 09:55:57.286 +04:00 [INF] Source:[::1] Request: POST https localhost:57679/KpiGroups  {
+  "name": "KPI Group Name 1"
+} Responded with [200] in 536ms
+2025-08-11 09:55:57.292 +04:00 [INF] Request finished HTTP/2 POST https://localhost:57679/KpiGroups - 200 134 application/json 565.293ms
+2025-08-11 09:56:00.841 +04:00 [INF] Request starting HTTP/2 POST https://localhost:57679/KpiGroups - application/json 32
+2025-08-11 09:56:00.845 +04:00 [INF] Executing endpoint 'HTTP: POST /KpiGroups'
+2025-08-11 09:56:00.854 +04:00 [INF] Executed DbCommand (2ms) [Parameters=[@p0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [KpiGroups] ([Name])
+OUTPUT INSERTED.[Id]
+VALUES (@p0);
+2025-08-11 09:56:00.858 +04:00 [INF] Executed endpoint 'HTTP: POST /KpiGroups'
+2025-08-11 09:56:00.860 +04:00 [INF] Source:[::1] Request: POST https localhost:57679/KpiGroups  {
+  "name": "KPI Group Name 2"
+} Responded with [200] in 14ms
+2025-08-11 09:56:00.865 +04:00 [INF] Request finished HTTP/2 POST https://localhost:57679/KpiGroups - 200 134 application/json 24.4756ms
+2025-08-11 09:56:04.335 +04:00 [INF] Request starting HTTP/2 POST https://localhost:57679/KpiGroups - application/json 32
+2025-08-11 09:56:04.340 +04:00 [INF] Executing endpoint 'HTTP: POST /KpiGroups'
+2025-08-11 09:56:04.346 +04:00 [INF] Executed DbCommand (1ms) [Parameters=[@p0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [KpiGroups] ([Name])
+OUTPUT INSERTED.[Id]
+VALUES (@p0);
+2025-08-11 09:56:04.351 +04:00 [INF] Executed endpoint 'HTTP: POST /KpiGroups'
+2025-08-11 09:56:04.354 +04:00 [INF] Source:[::1] Request: POST https localhost:57679/KpiGroups  {
+  "name": "KPI Group Name 3"
+} Responded with [200] in 14ms
+2025-08-11 09:56:04.357 +04:00 [INF] Request finished HTTP/2 POST https://localhost:57679/KpiGroups - 200 134 application/json 21.8576ms
+2025-08-11 09:56:09.384 +04:00 [INF] Request starting HTTP/2 GET https://localhost:57679/KpiGroups - null null
+2025-08-11 09:56:09.388 +04:00 [INF] Executing endpoint 'HTTP: GET /KpiGroups'
+2025-08-11 09:56:09.660 +04:00 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [k].[Id], [k].[Name]
+FROM [KpiGroups] AS [k]
+2025-08-11 09:56:09.695 +04:00 [INF] Executed endpoint 'HTTP: GET /KpiGroups'
+2025-08-11 09:56:09.707 +04:00 [INF] Source:[::1] Request: GET https localhost:57679/KpiGroups   Responded with [200] in 318ms
+2025-08-11 09:56:09.709 +04:00 [INF] Request finished HTTP/2 GET https://localhost:57679/KpiGroups - 200 281 application/json 325.5008ms
+2025-08-11 09:56:27.067 +04:00 [INF] Request starting HTTP/2 PUT https://localhost:57679/KpiGroups/5 - application/json 32
+2025-08-11 09:56:27.095 +04:00 [INF] Executing endpoint 'HTTP: PUT /KpiGroups/{Id}'
+2025-08-11 09:56:27.247 +04:00 [INF] Executed DbCommand (3ms) [Parameters=[@__p_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [k].[Id], [k].[Name]
+FROM [KpiGroups] AS [k]
+WHERE [k].[Id] = @__p_0
+2025-08-11 09:56:27.266 +04:00 [INF] Executed DbCommand (9ms) [Parameters=[@p1='?' (DbType = Int32), @p0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+UPDATE [KpiGroups] SET [Name] = @p0
+OUTPUT 1
+WHERE [Id] = @p1;
+2025-08-11 09:56:27.278 +04:00 [INF] Executed endpoint 'HTTP: PUT /KpiGroups/{Id}'
+2025-08-11 09:56:27.283 +04:00 [ERR] [500]: Unhandled Exception occurred. Unable to process the request.
+AutoMapper.AutoMapperMappingException: Missing type map configuration or unsupported mapping.
+
+Mapping types:
+Int32 -> UpdateKpiGroupResponse
+System.Int32 -> KpiScope.Web.KpiGroup.Update.UpdateKpiGroupResponse
+   at lambda_method1040(Closure, Object, UpdateKpiGroupResponse, ResolutionContext)
+   at KpiScope.Web.KpiGroup.KpiGroupEndpointService.UpdateAsync(UpdateKpiGroupRequest req, CancellationToken ct) in E:\Work\KPI\KpiScope\src\KpiScope.Web\KpiGroup\KpiGroupEndpointService.cs:line 85
+   at KpiScope.Web.KpiGroup.Update.Update.HandleAsync(UpdateKpiGroupRequest req, CancellationToken ct) in E:\Work\KPI\KpiScope\src\KpiScope.Web\KpiGroup\Update\Update.cs:line 13
+   at FastEndpoints.Endpoint`2.ExecAsync(CancellationToken ct)
+   at FastEndpoints.Endpoint`2.ExecAsync(CancellationToken ct)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at AutoWrapper.Base.WrapperBase.InvokeAsyncBase(HttpContext context, AutoWrapperMembers awm)
+2025-08-11 09:56:27.317 +04:00 [INF] Source:[::1] Request: PUT https localhost:57679/KpiGroups/5  {
+  "name": "Kpi Group Name 5"
+} Responded with [500] in 221ms
+2025-08-11 09:56:27.320 +04:00 [INF] Request finished HTTP/2 PUT https://localhost:57679/KpiGroups/5 - 500 165 application/json 253.3707ms
+2025-08-11 09:56:34.579 +04:00 [INF] Request starting HTTP/2 GET https://localhost:57679/KpiGroups/5 - null null
+2025-08-11 09:56:34.584 +04:00 [INF] Executing endpoint 'HTTP: GET /KpiGroups/{Id}'
+2025-08-11 09:56:34.594 +04:00 [INF] Executed DbCommand (0ms) [Parameters=[@__p_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [k].[Id], [k].[Name]
+FROM [KpiGroups] AS [k]
+WHERE [k].[Id] = @__p_0
+2025-08-11 09:56:34.600 +04:00 [INF] Executed endpoint 'HTTP: GET /KpiGroups/{Id}'
+2025-08-11 09:56:34.602 +04:00 [INF] Source:[::1] Request: GET https localhost:57679/KpiGroups/5   Responded with [200] in 18ms
+2025-08-11 09:56:34.604 +04:00 [INF] Request finished HTTP/2 GET https://localhost:57679/KpiGroups/5 - 200 133 application/json 24.6179ms
+2025-08-11 09:56:41.970 +04:00 [INF] Request starting HTTP/2 DELETE https://localhost:57679/KpiGroups/5 - null null
+2025-08-11 09:56:41.974 +04:00 [INF] Executing endpoint 'HTTP: DELETE /KpiGroups/{Id}'
+2025-08-11 09:56:41.985 +04:00 [INF] Executed DbCommand (2ms) [Parameters=[@__p_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [k].[Id], [k].[Name]
+FROM [KpiGroups] AS [k]
+WHERE [k].[Id] = @__p_0
+2025-08-11 09:56:42.112 +04:00 [INF] Executed DbCommand (110ms) [Parameters=[@p0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+DELETE FROM [KpiGroups]
+OUTPUT 1
+WHERE [Id] = @p0;
+2025-08-11 09:56:42.128 +04:00 [INF] Executed endpoint 'HTTP: DELETE /KpiGroups/{Id}'
+2025-08-11 09:56:42.135 +04:00 [INF] Source:[::1] Request: DELETE https localhost:57679/KpiGroups/5   Responded with [200] in 161ms
+2025-08-11 09:56:42.137 +04:00 [INF] Request finished HTTP/2 DELETE https://localhost:57679/KpiGroups/5 - 200 103 application/json 166.9539ms
+2025-08-11 09:56:46.167 +04:00 [INF] Request starting HTTP/2 GET https://localhost:57679/KpiGroups/5 - null null
+2025-08-11 09:56:46.170 +04:00 [INF] Executing endpoint 'HTTP: GET /KpiGroups/{Id}'
+2025-08-11 09:56:46.178 +04:00 [INF] Executed DbCommand (3ms) [Parameters=[@__p_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [k].[Id], [k].[Name]
+FROM [KpiGroups] AS [k]
+WHERE [k].[Id] = @__p_0
+2025-08-11 09:56:46.182 +04:00 [INF] Executed endpoint 'HTTP: GET /KpiGroups/{Id}'
+2025-08-11 09:56:46.183 +04:00 [ERR] [500]: Unhandled Exception occurred. Unable to process the request.
+System.InvalidOperationException: KPI Group not found.
+   at KpiScope.Web.KpiGroup.KpiGroupEndpointService.GetAsync(GetKpiGroupByIdRequest req, CancellationToken ct) in E:\Work\KPI\KpiScope\src\KpiScope.Web\KpiGroup\KpiGroupEndpointService.cs:line 57
+   at KpiScope.Web.KpiGroup.GetById.GetById.HandleAsync(GetKpiGroupByIdRequest req, CancellationToken ct) in E:\Work\KPI\KpiScope\src\KpiScope.Web\KpiGroup\GetById\GetById.cs:line 13
+   at FastEndpoints.Endpoint`2.ExecAsync(CancellationToken ct)
+   at FastEndpoints.Endpoint`2.ExecAsync(CancellationToken ct)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at AutoWrapper.Base.WrapperBase.InvokeAsyncBase(HttpContext context, AutoWrapperMembers awm)
+2025-08-11 09:56:46.191 +04:00 [INF] Source:[::1] Request: GET https localhost:57679/KpiGroups/5   Responded with [500] in 20ms
+2025-08-11 09:56:46.193 +04:00 [INF] Request finished HTTP/2 GET https://localhost:57679/KpiGroups/5 - 500 165 application/json 26.1513ms
+2025-08-11 10:00:42.205 +04:00 [INF] Application is shutting down...

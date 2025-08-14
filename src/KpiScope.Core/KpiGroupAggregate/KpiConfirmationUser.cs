@@ -12,5 +12,14 @@ public class KpiConfirmationUser : BaseEntity, IAggregateRoot
     public string Comment { get; set; } = string.Empty; 
     public KpiConfirmation? KpiConfirmation { get; set; }
     public User? User { get; set; }
-    public DateTime? ActionDate { get; set; }
+    public DateTime ActionDate { get; set; }
+}
+
+public enum ConfirmationStatusEnum
+{
+    Pending = 1,   
+    InProgress,    
+    Approved,     
+    Rejected,     
+    Cancelled
 }
